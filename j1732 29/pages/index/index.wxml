@@ -24,17 +24,17 @@ style="width: 358px;" mode ="widthFix"></image>
 style="width: 358px;" mode ="widthFix"></image>
 </view>
 
-<view class="tr">
+<view class="tr_1">
 <navigator url='../index/index'>
-<image src="../../images/首页9_07.png"
-style="width: 80px;" mode ="widthFix"></image></navigator>
+<image src="../../images/首页.png"
+style="width: 30px; margin-left:34px;" mode ="widthFix"></image></navigator>
 <navigator  url='../lxjsq/lxjsq'>
-<image src="../../images/首页9_08.png"
-style="width: 80px;" mode ="widthFix"></image></navigator>
+<image src="../../images/分类.png"
+style="width: 30px; margin-left:44px;" mode ="widthFix"></image></navigator>
 <navigator  url='../Tools/tools'>
-<image src="../../images/首页9_09.png"
-style="width: 80px;" mode ="widthFix"></image></navigator>
+<image src="../../images/购物.png"
+style="width: 30px; margin-left:44px;" mode ="widthFix"></image></navigator>
 <navigator  url='../Login/login'>
-<image src="../../images/首页9_10.png"
-style="width: 80px;" mode ="widthFix"></image></navigator>
+<image src="../../images/我的.png"
+style="width: 30px; margin-left:44px;" mode ="widthFix"></image></navigator>
 </view>

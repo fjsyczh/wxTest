@@ -1,5 +1,4 @@
 <!--pages/orders/orders.wxml-->
-<text>pages/orders/orders.wxml</text>
 <view class='container'>
   <!-- 订单列表 -->
   <block wx:for-items="{{carInfoData}}">
