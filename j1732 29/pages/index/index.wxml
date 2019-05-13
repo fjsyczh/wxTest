@@ -1,40 +1,7 @@
 <!--index.wxml-->
-<view class="tr">
-<image src="../../images/首页9_01.png" 
-style="width: 358px;" mode ="widthFix"></image>
-</view>
-<view class="tr">
-<image src="../../images/首页9_02.png" 
-style="width: 358px;" mode ="widthFix"></image>
-</view>
-<view class="tr">
-<image src="../../images/首页9_03.png" 
-style="width: 358px;" mode ="widthFix"></image>
-</view>
-<view class="tr">
-<image src="../../images/首页9_04.png" 
-style="width: 358px;" mode ="widthFix"></image>
-</view>
-<view class="tr">
-<image src="../../images/首页9_05.png" 
-style="width: 358px;" mode ="widthFix"></image>
-</view>
-<view class="tr">
-<image src="../../images/首页9_06.png" 
-style="width: 358px;" mode ="widthFix"></image>
-</view>
-
-<view class="tr_1">
-<navigator url='../index/index'>
-<image src="../../images/首页.png"
-style="width: 30px; margin-left:34px;" mode ="widthFix"></image></navigator>
-<navigator  url='../lxjsq/lxjsq'>
-<image src="../../images/分类.png"
-style="width: 30px; margin-left:44px;" mode ="widthFix"></image></navigator>
-<navigator  url='../Tools/tools'>
-<image src="../../images/购物.png"
-style="width: 30px; margin-left:44px;" mode ="widthFix"></image></navigator>
-<navigator  url='../Login/login'>
-<image src="../../images/我的.png"
-style="width: 30px; margin-left:44px;" mode ="widthFix"></image></navigator>
-</view>
+<Topmenu id='mytopmenu'  uname='{{userInfo.nickName}}' usite='{{usite}}' />
+<pmdggl />
+<Swipelist id='myswipelist' usite='{{usite}}' />
+<LinkList id='mylinklist' usite='{{usite}}' />
+openid：{{uopenid}}
+<button class="loginx" size="mini" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">登录系统,获得VIP服务</button>
